@@ -21,3 +21,6 @@
 2025-06-12 12:51:08:518 [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5001[39m
 2025-06-12 13:00:22:022 [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
 2025-06-12 13:29:02:292 [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+2025-06-30 12:27:09:279 [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5002[39m
+2025-06-30 12:35:28:3528 [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5002[39m
+2025-06-30 12:37:01:371 [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5004[39m
