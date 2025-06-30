@@ -1,13 +1,25 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { ArrowRight, TrendingUp, Star, Zap, Shield, Truck, Users, Award, ChevronLeft, ChevronRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import ProductCard from '@/components/product/ProductCard';
-import { mockProducts, featuredDeals } from '@/lib/mock-data';
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import {
+  ArrowRight,
+  TrendingUp,
+  Star,
+  Zap,
+  Shield,
+  Truck,
+  Users,
+  Award,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import ProductCard from "@/components/product/ProductCard";
+import { mockProducts, featuredDeals } from "@/lib/mock-data";
 
+//Github sync test
 // Modern Hero Section
 const ModernHero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -16,24 +28,30 @@ const ModernHero = () => {
     {
       title: "Discover Amazing Products",
       subtitle: "Shop the latest trends",
-      description: "Find everything you need from trusted sellers worldwide with fast shipping and great prices",
+      description:
+        "Find everything you need from trusted sellers worldwide with fast shipping and great prices",
       cta: "Shop Now",
-      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop"
+      image:
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
     },
     {
       title: "Start Selling Today",
       subtitle: "Join our marketplace",
-      description: "Reach millions of customers and grow your business with our powerful seller tools",
+      description:
+        "Reach millions of customers and grow your business with our powerful seller tools",
       cta: "Become a Seller",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop"
+      image:
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
     },
     {
       title: "Fast & Secure Delivery",
       subtitle: "We've got you covered",
-      description: "Free shipping on orders over $50, secure payments, and hassle-free returns",
+      description:
+        "Free shipping on orders over $50, secure payments, and hassle-free returns",
       cta: "Learn More",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop"
-    }
+      image:
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=600&fit=crop",
+    },
   ];
 
   useEffect(() => {
@@ -51,7 +69,6 @@ const ModernHero = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-
           {/* Content */}
           <div className="text-white animate-fade-in-up">
             <Badge className="bg-white/20 text-white mb-4 border-0">
@@ -101,7 +118,7 @@ const ModernHero = () => {
               key={index}
               onClick={() => setCurrentSlide(index)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                index === currentSlide ? 'bg-white' : 'bg-white/40'
+                index === currentSlide ? "bg-white" : "bg-white/40"
               }`}
             />
           ))}
@@ -117,31 +134,35 @@ const FeaturedCategories = () => {
     {
       name: "Electronics",
       description: "Latest gadgets & tech",
-      image: "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300&h=200&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300&h=200&fit=crop",
       itemCount: "15,420 products",
-      color: "blue"
+      color: "blue",
     },
     {
       name: "Fashion",
       description: "Trending styles",
-      image: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=300&h=200&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1445205170230-053b83016050?w=300&h=200&fit=crop",
       itemCount: "22,830 products",
-      color: "pink"
+      color: "pink",
     },
     {
       name: "Home & Garden",
       description: "Beautiful spaces",
-      image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop",
       itemCount: "8,920 products",
-      color: "green"
+      color: "green",
     },
     {
       name: "Sports & Fitness",
       description: "Stay active",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop",
+      image:
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop",
       itemCount: "6,540 products",
-      color: "orange"
-    }
+      color: "orange",
+    },
   ];
 
   return (
@@ -158,7 +179,10 @@ const FeaturedCategories = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((category, index) => (
-            <Link key={category.name} href={`/category/${category.name.toLowerCase()}`}>
+            <Link
+              key={category.name}
+              href={`/category/${category.name.toLowerCase()}`}
+            >
               <div className="modern-card group cursor-pointer">
                 <div className="relative overflow-hidden rounded-t-lg">
                   <img
@@ -230,26 +254,26 @@ const FeaturesSection = () => {
       icon: Truck,
       title: "Fast Delivery",
       description: "Free shipping on orders over $50 with tracking",
-      color: "blue"
+      color: "blue",
     },
     {
       icon: Shield,
       title: "Secure Payments",
       description: "Your payment information is safe with us",
-      color: "green"
+      color: "green",
     },
     {
       icon: Users,
       title: "24/7 Support",
       description: "Round-the-clock customer service support",
-      color: "purple"
+      color: "purple",
     },
     {
       icon: Award,
       title: "Quality Guarantee",
       description: "30-day money-back guarantee on all products",
-      color: "orange"
-    }
+      color: "orange",
+    },
   ];
 
   return (
@@ -294,7 +318,8 @@ const CTASection = () => {
             Ready to Start Selling?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join thousands of successful sellers on our platform and reach millions of customers worldwide
+            Join thousands of successful sellers on our platform and reach
+            millions of customers worldwide
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 text-lg font-semibold">
