@@ -40,3 +40,8 @@
 2025-06-30 12:27:09:279 [32minfo[39m: [32m✅ Database connected successfully[39m
 2025-06-30 12:35:28:3528 [32minfo[39m: [32m✅ Database connected successfully[39m
 2025-06-30 12:37:01:371 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-30 12:49:22:4922 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-30 12:54:19:5419 [31merror[39m: [31m❌ Database connection failed: Can't reach database server at `localhost:5000`[39m
+
+[31mPlease make sure your database server is running at `localhost:5000`.[39m
+2025-06-30 13:17:04:174 [32minfo[39m: [32m✅ Database connected successfully[39m
