@@ -1,0 +1,39 @@
+2025-06-10 14:11:33:1133 [31merror[39m: [31m❌ Database connection failed: Can't reach database server at `localhost:5432`[39m
+
+[31mPlease make sure your database server is running at `localhost:5432`.[39m
+2025-06-10 14:11:41:1141 [31merror[39m: [31m❌ Database connection failed: Can't reach database server at `localhost:5432`[39m
+
+[31mPlease make sure your database server is running at `localhost:5432`.[39m
+2025-06-10 14:23:43:2343 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:14:14:1414 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:14:34:1434 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:14:53:1453 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:15:13:1513 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:15:36:1536 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:15:56:1556 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:16:06:166 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:16:06:166 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-10 15:16:06:166 [32minfo[39m: [32m🚀 Server running on port 0 in development mode[39m
+2025-06-10 15:16:06:166 [32minfo[39m: [32m📚 API documentation available at http://localhost:0/api[39m
+2025-06-10 15:16:06:166 [32minfo[39m: [32m🏥 Health check available at http://localhost:0/api/health[39m
+2025-06-10 15:16:06:166 [32minfo[39m: [32m🚀 Server running on port 0 in development mode[39m
+2025-06-10 15:16:06:166 [32minfo[39m: [32m📚 API documentation available at http://localhost:0/api[39m
+2025-06-10 15:16:06:166 [32minfo[39m: [32m🏥 Health check available at http://localhost:0/api/health[39m
+2025-06-10 18:23:40:2340 [32minfo[39m: [32m🌱 Starting database seeding...[39m
+2025-06-10 18:23:41:2341 [32minfo[39m: [32m✅ Database seeded successfully![39m
+2025-06-10 18:23:41:2341 [32minfo[39m: [32m📧 Admin user: admin@amazonclone.com / admin123456[39m
+2025-06-10 18:23:41:2341 [32minfo[39m: [32m👤 Customer user: customer@example.com / customer123[39m
+2025-06-12 11:38:13:3813 [32minfo[39m: [32m🌱 Starting database seeding...[39m
+2025-06-12 11:38:15:3815 [32minfo[39m: [32m✅ Database seeded successfully![39m
+2025-06-12 11:38:15:3815 [32minfo[39m: [32m📧 Admin user: admin@amazonclone.com / admin123456[39m
+2025-06-12 11:38:15:3815 [32minfo[39m: [32m👤 Customer user: customer@example.com / customer123[39m
+2025-06-12 11:41:44:4144 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 11:43:19:4319 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 11:44:02:442 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 12:27:02:272 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 12:28:04:284 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 12:30:40:3040 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 12:48:56:4856 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 12:51:08:518 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 13:00:22:022 [32minfo[39m: [32m✅ Database connected successfully[39m
+2025-06-12 13:29:02:292 [32minfo[39m: [32m✅ Database connected successfully[39m
